@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.25",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "ARMS",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/425da3356d7f460f9bd0f3191e87ff21"
+		}
+	]
+}
