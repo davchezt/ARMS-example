@@ -23,16 +23,16 @@ class ALSV4_CPP_API UALSAnimNotifyFootstep : public UAnimNotify
 {
 	GENERATED_BODY()
 
-	void Notify(USkeletalMeshComponent* MeshComp, UAnimSequenceBase* Animation) override;
+	virtual void Notify(USkeletalMeshComponent* MeshComp, UAnimSequenceBase* Animation) override;
 
-	FString GetNotifyName_Implementation() const override;
+	virtual FString GetNotifyName_Implementation() const override;
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AnimNotify)
 	USoundBase* Sound = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AnimNotify)
-	FName AttachPointName = FName(TEXT("Root"));
+	FName AttachPointName = FName(TEXT("root"));
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = AnimNotify)
 	EALSFootstepType FootstepType = EALSFootstepType::Step;
