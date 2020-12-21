@@ -85,6 +85,7 @@ Plugins/*/*/DerivedDataCache/*
 
 # Shiped dir
 Package/*
+Plugins/ARMS/*
 
 # Big Contents
 Branch/*
